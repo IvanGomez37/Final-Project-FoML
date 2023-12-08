@@ -15,3 +15,14 @@ FEATURES OF THE DATASET:
  13  Seasons                    8760 non-null   int64         
  14  Holiday                    8760 non-null   int64         
  15  Functioning Day            8760 non-null   int64 
+
+
+Most important features: 
+[Rented Bike Count] 
+[Month]
+[Day of the week]
+[Temperature + Humidity]
+[Wind speed]
+[Rainfall + Snowfall]
+[Seasons]
+[Holiday]

@@ -1,20 +1,20 @@
 FEATURES OF THE DATASET: 
- 0   Date                       8760 non-null   datetime64[ns]
+0   Date                       8760 non-null   datetime64[ns]
  1   Month                      8760 non-null   int32         
- 2   DayOfWeek                  8760 non-null   int64         
+ 2   Week Day                   8760 non-null   int64         
  3   Hour                       8760 non-null   int64         
- 4   Rented Bike Count          8760 non-null   int64         
- 5   Temperature(°C)            8760 non-null   float64       
- 6   Humidity(%)                8760 non-null   int64         
- 7   Wind speed (m/s)           8760 non-null   float64       
- 8   Visibility (10m)           8760 non-null   int64         
- 9   Dew point temperature(°C)  8760 non-null   float64       
- 10  Solar Radiation (MJ/m2)    8760 non-null   float64       
- 11  Rainfall(mm)               8760 non-null   float64       
- 12  Snowfall (cm)              8760 non-null   float64       
- 13  Seasons                    8760 non-null   int64         
- 14  Holiday                    8760 non-null   int64         
- 15  Functioning Day            8760 non-null   int64 
+ 4   Seasons                    8760 non-null   int64         
+ 5   Holiday                    8760 non-null   int64         
+ 6   Functioning Day            8760 non-null   int64         
+ 7   Temperature(°C)            8760 non-null   float64       
+ 8   Humidity(%)                8760 non-null   int64         
+ 9   Wind speed (m/s)           8760 non-null   float64       
+ 10  Visibility (10m)           8760 non-null   int64         
+ 11  Dew point temperature(°C)  8760 non-null   float64       
+ 12  Solar Radiation (MJ/m2)    8760 non-null   float64       
+ 13  Rainfall(mm)               8760 non-null   float64       
+ 14  Snowfall (cm)              8760 non-null   float64       
+ 15  Rented Bike Count          8760 non-null   int64
 
 
 Most important features: 
@@ -26,3 +26,12 @@ Most important features:
 [Rainfall + Snowfall]
 [Seasons]
 [Holiday]
+
+Features for temporal model:
+Rented Bike Count
+Month
+Week Day
+Seasons
+Holiday
+
+
